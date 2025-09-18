@@ -13,9 +13,7 @@ struct SeccionInventario: View {
     
     var body: some View {
         VStack {
-            Text("INVENTORY")
-                .font(.headline)
-                .foregroundColor(.white)
+            TituloParaSeccion(texto: "INVENTORY")
             
             Grid {
                 ForEach(0..<filas, id: \.self) { _ in
