@@ -10,9 +10,7 @@ import SwiftUI
 struct SeccionArmas: View {
     var body: some View {
         VStack {
-            Text("WEAPONS")
-                .font(.headline)
-                .foregroundColor(.white)
+            TituloParaSeccion(texto: "WEAPONS")
             
             ForEach(0..<2) { _ in
                 Rectangle()
