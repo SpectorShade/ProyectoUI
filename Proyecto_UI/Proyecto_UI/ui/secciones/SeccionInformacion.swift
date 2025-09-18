@@ -10,9 +10,7 @@ import SwiftUI
 struct SeccionInformacion: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("INFO")
-                .font(.headline)
-                .foregroundColor(.white)
+            TituloParaSeccion(texto: "INFO")
             
             Text("PLASMA RIFLE")
                 .foregroundColor(.white)
