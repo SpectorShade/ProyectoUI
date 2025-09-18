@@ -10,17 +10,12 @@ import SwiftUI
 struct SeccionNodos: View {
     var body: some View {
         VStack {
-            Text("NODES")
-                .font(.headline)
-                .foregroundColor(.white)
+           TituloParaSeccion(texto: "NODOS")
             
             Text("10/12")
                 .foregroundColor(.white)
             
-            Circle()
-                .stroke(Color.blue, lineWidth: 3)
-                .frame(width: 50, height: 50)
-            
+            CirculoParaNodo()
         }
         .padding()
     }
