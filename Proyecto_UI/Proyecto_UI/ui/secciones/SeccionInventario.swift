@@ -21,9 +21,7 @@ struct SeccionInventario: View {
                 ForEach(0..<filas, id: \.self) { _ in
                     GridRow {
                         ForEach(0..<columnas, id: \.self) { _ in
-                            Rectangle()
-                                .stroke(Color.gray, lineWidth: 2)
-                                .frame(width: 60, height: 60)
+                            RanuraParaInventario()
                         }
                     }
                     
