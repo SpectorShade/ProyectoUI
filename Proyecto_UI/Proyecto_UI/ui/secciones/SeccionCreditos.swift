@@ -10,9 +10,7 @@ import SwiftUI
 struct SeccionCreditos: View {
     var body: some View {
         VStack {
-            Text("CREDITS")
-                .font(.headline)
-                .foregroundColor(.white)
+            TituloParaSeccion(texto: "CREDITS")
             
             Text("1,480 Cr")
                 .foregroundColor(.white)
