@@ -1,6 +1,6 @@
 //
-//  renglon_columna_2.swift
-//  mi_primera_chamba
+//  RanuraParaInventario.swift
+//  Proyecto_UI
 //
 //  Created by alumno on 18/09/25.
 //
