@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SeccionInventario: View {
+    var filas: Int
+    var columnas: Int
+    
     var body: some View {
         VStack {
             Text("INVENTORY")
@@ -31,4 +34,8 @@ struct SeccionInventario: View {
         }
         .padding()
     }
+}
+
+#Preview {
+    SeccionInventario(filas: 5, columnas: 4)
 }
