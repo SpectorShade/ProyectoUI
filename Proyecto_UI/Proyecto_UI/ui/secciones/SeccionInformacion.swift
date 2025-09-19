@@ -15,8 +15,9 @@ struct SeccionInformacion: View {
             Text("PLASMA RIFLE")
                 .foregroundColor(.white)
                 .bold()
-            Text("A Powerful intermediate power\nsupply for the plasma cutter.")
-                .foregroundColor(.gray)
+                .font(.caption)
+            Text("A Powerful power\nsupply for the\nplasma cutter.")
+                .foregroundColor(.blue)
                 .font(.caption)
             
         }

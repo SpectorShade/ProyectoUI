@@ -14,7 +14,8 @@ struct FilaParaEstadistica: View {
     var body: some View {
         HStack {
             Text(etiqueta)
-                .foregroundColor(.gray)
+                .foregroundColor(.blue)
+                .font(.caption)
             Spacer()
             Text(valor)
                 .foregroundColor(.white)

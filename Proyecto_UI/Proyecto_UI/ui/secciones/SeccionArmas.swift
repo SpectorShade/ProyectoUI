@@ -14,8 +14,9 @@ struct SeccionArmas: View {
             
             ForEach(0..<2) { _ in
                 Rectangle()
-                    .stroke(Color.gray, lineWidth: 2)
+                    .stroke(Color.blue, lineWidth: 2)
                     .frame(width: 60, height: 60)
+                    .background(Color.blue)
             }
             
         }

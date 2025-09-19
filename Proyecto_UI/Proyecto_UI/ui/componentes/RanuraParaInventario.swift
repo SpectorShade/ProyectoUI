@@ -10,7 +10,7 @@ import SwiftUI
 struct RanuraParaInventario: View {
     var body: some View {
         Rectangle()
-            .stroke(Color.gray, lineWidth: 2)
+            .stroke(Color.blue, lineWidth: 2)
             .frame(width: 60, height: 60)
             .background(Color.black)
     }
