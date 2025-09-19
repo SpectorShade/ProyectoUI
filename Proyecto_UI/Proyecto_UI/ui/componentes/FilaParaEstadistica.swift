@@ -23,5 +23,5 @@ struct FilaParaEstadistica: View {
 }
 
 #Preview {
-    StatRow(etiqueta: "HEALTH", valor: "85%")
+    FilaParaEstadistica(etiqueta: "HEALTH", valor: "85%")
 }

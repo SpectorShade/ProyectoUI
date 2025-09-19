@@ -11,7 +11,7 @@ struct TituloParaSeccion: View {
     var texto: String
     
     var body: some View {
-        Text(text.uppercased())
+        Text(texto.uppercased())
             .font(.headline)
             .foregroundColor(.white)
             .padding(.bottom, 4)
